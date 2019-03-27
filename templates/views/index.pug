@@ -10,10 +10,10 @@ block content
 		hr
 		if user && user.canAccessKeystone
 			p
-				a(href='/keystone').btn.btn-lg.btn-primary Go to Admin Page
+				a(href='/admin').btn.btn-lg.btn-primary Go to Admin Page
 		else
 			p
-				a(href='/keystone/signin', style='margin-right: 10px').btn.btn-lg.btn-primary Sign in
+				a(href='/admin/signin', style='margin-right: 10px').btn.btn-lg.btn-primary Sign in
 				|  to write blogs.
 		//- hr
 		//- p Remember to <a href='https://github.com/keystonejs/keystone' target='_blank'>Star KeystoneJS on GitHub</a> and

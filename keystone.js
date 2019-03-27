@@ -23,6 +23,7 @@ keystone.init({
     'auto update': true,
     'session': true,
     'auth': true,
+    'admin path': 'admin',
     'user model': 'User',
 });
 
